@@ -1,14 +1,14 @@
 import React from 'react'
-import p1 from '../images/Project1.png'
+import p1 from '../images/project1.png'
 
 const Projects = () => {
     const projects = [
         {
-            name: "Voice Recognition",
-            img: p1,
-            languageOrFramwork: "HTML , CSS , JS",
-            link: "https://shudhanshu03.github.io/Voice-Recognition/"
-        },     
+            name: "Realtime_Chat_Application",
+            img : p1,
+            languageOrFramwork: "HTML ,CSS , JS , Node.js , Socket.io",
+            link: "https://github.com/shudhanshu03/Realtime_Chat_Application"
+        }     
     ];
     return (
         <section id="portfolio">

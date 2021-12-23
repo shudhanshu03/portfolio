@@ -1,7 +1,7 @@
 import React from 'react'
 import TypeWriter from 'typewriter-effect'
 import Heroimage from '../images/dp_codingg.png'
-import CV from '../assets/Shudhanshu_Resume.pdf'
+
 import { Link } from 'react-scroll'
 const Hero = () => {
     return (
@@ -30,7 +30,7 @@ const Hero = () => {
                     />
                 </p>
                 <div className="hero_btns">
-                    <p className="cv_download"><a target="_blank" rel="noreferrer" href={CV}>Download CV <span><i className="fa fa-download" aria-hidden="true"></i></span></a></p>
+                    <p className="cv_download"><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1KluKhH6OPz9VNgdJwUX3YazlRSkd7-LH/view?usp=sharing">Download CV <span><i className="fa fa-download" aria-hidden="true"></i></span></a></p>
                     <p className="hire_btn">
                         <Link to="contact">Hire Me</Link>
                     </p>
